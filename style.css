@@ -4,15 +4,17 @@ body{
     margin: 0;
 }
 
-
+.hero{
+    background-color: #1f2937;
+    
+}
 
 .header{
-    background-color: #1f2937;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 10px auto;
-
+    gap: 15%;
+    
 }
 
 .logo{
@@ -28,8 +30,47 @@ body{
     list-style: none;
     text-decoration: none;
 }
-a:hover{
+a:hover, .logo:hover{
     color: aqua;
-    font-size: 20px;
 }
 
+.big{
+    font-weight: bold;
+    font-size: 48px;
+    color: #F9FAF8;
+    margin-top: 100px;
+}
+
+.small{
+    color: #E5E7EB;
+    font-size: 16px;
+    width: 50%;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-right: 10%;
+    padding-left: 10%;
+   align-items: center;
+}
+.main{
+    margin-bottom: 50px;
+}
+
+img{
+    width: 400px;
+    height: 200px;
+    margin-top: 20%;
+}
+.sign{
+    background-color: #3882f6;
+    color: white;
+    width: 150px;
+    height: auto;
+    border-radius: 20em;
+    border: 3px rgb(98, 98, 218) solid ;
+    padding: 10px;
+    margin-top: 20px;
+}
