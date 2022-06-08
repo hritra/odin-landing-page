@@ -6,7 +6,7 @@ body{
 
 .hero{
     background-color: #1f2937;
-    
+    padding-bottom: 50px;
 }
 
 .header{
@@ -14,7 +14,6 @@ body{
     justify-content: space-around;
     align-items: center;
     gap: 15%;
-    
 }
 
 .logo{
@@ -73,4 +72,31 @@ img{
     border: 3px rgb(98, 98, 218) solid ;
     padding: 10px;
     margin-top: 20px;
+}
+h2{
+    text-align: center;
+}
+
+
+.blocks{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+
+.b{
+    height: 120px;
+    width: 120px;
+    border: blue solid 3px;
+    border-radius: 10px;
+    
+}
+.box{
+    max-width: 150px;
+    text-align: center;
+}
+.info{
+    background-color: white;
+    padding-bottom: 80px;
 }
