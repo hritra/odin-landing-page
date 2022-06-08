@@ -153,3 +153,11 @@ h2{
     font-weight: lighter;
     font-style: italic;
 }
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    padding: 20px;
+    align-items: center;
+    color: #E5E7EB;
+}
