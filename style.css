@@ -122,3 +122,34 @@ h2{
     flex-direction: column;
     justify-content: flex-end;
 }
+
+.advertisement{
+    display: flex;
+    padding: 100px;
+    justify-content: center;
+}
+.ads{
+    background-color: rgb(96, 96, 255);
+    color: white;
+    display: flex;
+    height: 150px;
+    width: 900px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+.ads .sign{
+    background-color: rgb(96, 96, 255);
+    border: 3px white solid;
+    width: 140px;
+    height: 40px;
+}
+.bold{
+    font-weight: bold;
+    font-size: 30px;
+}
+.light{
+    font-size: 20px;
+    font-weight: lighter;
+    font-style: italic;
+}
