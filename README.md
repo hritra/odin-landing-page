@@ -1,5 +1,10 @@
 # odin-landing-page
 
+~ABOUT~
+
+A webpage about bodybuilding made by with the help of html and css.
+
+~CREDITS~
 
 Hero header workout image by <a href="https://unsplash.com/@visualsbyroyalz?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Anastase Maragos</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
