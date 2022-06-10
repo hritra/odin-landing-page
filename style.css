@@ -25,11 +25,11 @@ body{
     font-size: 18px;
     color: #E5E7EB;
     display: flex;
-    gap: 10px;
+    gap: 15px;
     list-style: none;
     text-decoration: none;
 }
-a:hover, .logo:hover{
+a:hover{
     color: aqua;
 }
 
@@ -42,26 +42,29 @@ a:hover, .logo:hover{
 
 .small{
     color: #E5E7EB;
-    font-size: 16px;
-    width: 50%;
+    font-size: 18px;
+    padding-top: 8px;
+    max-width: 500px;
 }
 
 .container{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-right: 10%;
     padding-left: 10%;
    align-items: center;
+   gap: 15%;
 }
 .main{
     margin-bottom: 50px;
 }
 
 img{
-    width: 400px;
-    height: 200px;
+    width: 450px;
+    height: 300px;
     margin-top: 20%;
+    border: #0d1724 solid 3px;
 }
 .sign{
     background-color: #3882f6;
@@ -72,6 +75,9 @@ img{
     border: 3px rgb(98, 98, 218) solid ;
     padding: 10px;
     margin-top: 20px;
+    }
+button a{
+    margin-left: 25px;
 }
 h2{
     text-align: center;
@@ -94,6 +100,7 @@ h2{
     border-radius: 10px;
     
 }
+
 .box{
     max-width: 150px;
     text-align: center;
@@ -141,8 +148,11 @@ h2{
 .ads .sign{
     background-color: rgb(96, 96, 255);
     border: 3px white solid;
-    width: 140px;
-    height: 40px;
+    width: 150px;
+    height: auto;
+}
+.ads a{
+    margin-left: 30px;
 }
 .bold{
     font-weight: bold;
